@@ -1,0 +1,416 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 5,
+  "numPassedTests": 39,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 6,
+  "numTotalTests": 40,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1712151640439,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should response the GET method",
+          "location": null,
+          "status": "passed",
+          "title": "It should response the GET method"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should return unauthenticated error for list bills",
+          "location": null,
+          "status": "passed",
+          "title": "It should return unauthenticated error for list bills"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should return unauthenticated error for create bill",
+          "location": null,
+          "status": "passed",
+          "title": "It should return unauthenticated error for create bill"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should return unauthenticated error for update bill",
+          "location": null,
+          "status": "passed",
+          "title": "It should return unauthenticated error for update bill"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should return unauthenticated error for delete bill",
+          "location": null,
+          "status": "passed",
+          "title": "It should return unauthenticated error for delete bill"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should list all bills as admin",
+          "location": null,
+          "status": "passed",
+          "title": "It should list all bills as admin"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should not list all bills as admin",
+          "location": null,
+          "status": "passed",
+          "title": "It should not list all bills as admin"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should return a specific bill as admin",
+          "location": null,
+          "status": "passed",
+          "title": "It should return a specific bill as admin"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should not return a specific bill as unauthorized",
+          "location": null,
+          "status": "passed",
+          "title": "It should not return a specific bill as unauthorized"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should create a bill",
+          "location": null,
+          "status": "passed",
+          "title": "It should create a bill"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatchObject\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n\u001b[32m- Expected  - 2\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Object {\u001b[22m\n\u001b[32m-   \"fileName\": false,\u001b[39m\n\u001b[32m-   \"filePath\": false,\u001b[39m\n\u001b[31m+   \"fileName\": \"null\",\u001b[39m\n\u001b[31m+   \"filePath\": \"null\",\u001b[39m\n\u001b[2m    \"name\": \"bill-name\",\u001b[22m\n\u001b[2m  }\u001b[22m\n    at C:\\Users\\HammerPanzer\\Documents\\Formation\\OpenClassroom\\P09\\Billed-app-FR-Back-main\\tests\\bill.test.js:143:31\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+          ],
+          "fullName": "Test the root path It should create a bill with non picture file type and not save file",
+          "location": null,
+          "status": "failed",
+          "title": "It should create a bill with non picture file type and not save file"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should update a bill as admin",
+          "location": null,
+          "status": "passed",
+          "title": "It should update a bill as admin"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should not update a bill as unauthorized",
+          "location": null,
+          "status": "passed",
+          "title": "It should not update a bill as unauthorized"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should delete a bill as admin",
+          "location": null,
+          "status": "passed",
+          "title": "It should delete a bill as admin"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should delete a bill as unauthorized",
+          "location": null,
+          "status": "passed",
+          "title": "It should delete a bill as unauthorized"
+        }
+      ],
+      "endTime": 1712151643061,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mTest the root path › It should create a bill with non picture file type and not save file\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoMatchObject\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\n    \u001b[32m- Expected  - 2\u001b[39m\n    \u001b[31m+ Received  + 2\u001b[39m\n\n    \u001b[2m  Object {\u001b[22m\n    \u001b[32m-   \"fileName\": false,\u001b[39m\n    \u001b[32m-   \"filePath\": false,\u001b[39m\n    \u001b[31m+   \"fileName\": \"null\",\u001b[39m\n    \u001b[31m+   \"filePath\": \"null\",\u001b[39m\n    \u001b[2m    \"name\": \"bill-name\",\u001b[22m\n    \u001b[2m  }\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 141 |\u001b[39m       \u001b[33m.\u001b[39mattach(\u001b[32m'file'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'tests/fixture-cat.pdf'\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 142 |\u001b[39m       \u001b[33m.\u001b[39mthen((response) \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 143 |\u001b[39m         expect(response\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39mtoMatchObject({\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 144 |\u001b[39m           name\u001b[33m:\u001b[39m \u001b[32m'bill-name'\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 145 |\u001b[39m           fileName\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 146 |\u001b[39m           filePath\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2m\u001b[0m\u001b[36mtests/bill.test.js\u001b[39m\u001b[0m\u001b[2m:143:31\u001b[22m\u001b[2m\u001b[22m\n",
+      "name": "C:\\Users\\HammerPanzer\\Documents\\Formation\\OpenClassroom\\P09\\Billed-app-FR-Back-main\\tests\\bill.test.js",
+      "startTime": 1712151640501,
+      "status": "failed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should response the GET method",
+          "location": null,
+          "status": "passed",
+          "title": "It should response the GET method"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should authenticate a user",
+          "location": null,
+          "status": "passed",
+          "title": "It should authenticate a user"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should not authenticate a user with wrong password",
+          "location": null,
+          "status": "passed",
+          "title": "It should not authenticate a user with wrong password"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should not authenticate a user with wrong email",
+          "location": null,
+          "status": "passed",
+          "title": "It should not authenticate a user with wrong email"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should loggout a user",
+          "location": null,
+          "status": "passed",
+          "title": "It should loggout a user"
+        }
+      ],
+      "endTime": 1712151644399,
+      "message": "",
+      "name": "C:\\Users\\HammerPanzer\\Documents\\Formation\\OpenClassroom\\P09\\Billed-app-FR-Back-main\\tests\\auth.test.js",
+      "startTime": 1712151643231,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should response the GET method",
+          "location": null,
+          "status": "passed",
+          "title": "It should response the GET method"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should return unauthenticate error for list user",
+          "location": null,
+          "status": "passed",
+          "title": "It should return unauthenticate error for list user"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should return unauthenticate error for update user",
+          "location": null,
+          "status": "passed",
+          "title": "It should return unauthenticate error for update user"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should return unauthenticate error for delete user",
+          "location": null,
+          "status": "passed",
+          "title": "It should return unauthenticate error for delete user"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should get a list of users",
+          "location": null,
+          "status": "passed",
+          "title": "It should get a list of users"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should get a specific user",
+          "location": null,
+          "status": "passed",
+          "title": "It should get a specific user"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should create a user",
+          "location": null,
+          "status": "passed",
+          "title": "It should create a user"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should update a user as admin",
+          "location": null,
+          "status": "passed",
+          "title": "It should update a user as admin"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should update a user as unauthorized",
+          "location": null,
+          "status": "passed",
+          "title": "It should update a user as unauthorized"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should delete a user as admin",
+          "location": null,
+          "status": "passed",
+          "title": "It should delete a user as admin"
+        },
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should not delete a user as unauthorized",
+          "location": null,
+          "status": "passed",
+          "title": "It should not delete a user as unauthorized"
+        }
+      ],
+      "endTime": 1712151646086,
+      "message": "",
+      "name": "C:\\Users\\HammerPanzer\\Documents\\Formation\\OpenClassroom\\P09\\Billed-app-FR-Back-main\\tests\\user.test.js",
+      "startTime": 1712151644458,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Test the jwt service"],
+          "failureMessages": [],
+          "fullName": "Test the jwt service It should hash a password",
+          "location": null,
+          "status": "passed",
+          "title": "It should hash a password"
+        },
+        {
+          "ancestorTitles": ["Test the jwt service"],
+          "failureMessages": [],
+          "fullName": "Test the jwt service It should not hash a password and return error for unset parameter",
+          "location": null,
+          "status": "passed",
+          "title": "It should not hash a password and return error for unset parameter"
+        },
+        {
+          "ancestorTitles": ["Test the jwt service"],
+          "failureMessages": [],
+          "fullName": "Test the jwt service It should valid hashValue",
+          "location": null,
+          "status": "passed",
+          "title": "It should valid hashValue"
+        },
+        {
+          "ancestorTitles": ["Test the jwt service"],
+          "failureMessages": [],
+          "fullName": "Test the jwt service It should not valid hashValue for unset var",
+          "location": null,
+          "status": "passed",
+          "title": "It should not valid hashValue for unset var"
+        },
+        {
+          "ancestorTitles": ["Test the jwt service"],
+          "failureMessages": [],
+          "fullName": "Test the jwt service It should unvalid wrongValue",
+          "location": null,
+          "status": "passed",
+          "title": "It should unvalid wrongValue"
+        }
+      ],
+      "endTime": 1712151647199,
+      "message": "",
+      "name": "C:\\Users\\HammerPanzer\\Documents\\Formation\\OpenClassroom\\P09\\Billed-app-FR-Back-main\\services\\password.test.js",
+      "startTime": 1712151646205,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Test the jwt service"],
+          "failureMessages": [],
+          "fullName": "Test the jwt service It should encrypt to-encrypt",
+          "location": null,
+          "status": "passed",
+          "title": "It should encrypt to-encrypt"
+        },
+        {
+          "ancestorTitles": ["Test the jwt service"],
+          "failureMessages": [],
+          "fullName": "Test the jwt service It should valid jwtValue",
+          "location": null,
+          "status": "passed",
+          "title": "It should valid jwtValue"
+        },
+        {
+          "ancestorTitles": ["Test the jwt service"],
+          "failureMessages": [],
+          "fullName": "Test the jwt service It should unvalid wrongValue",
+          "location": null,
+          "status": "passed",
+          "title": "It should unvalid wrongValue"
+        }
+      ],
+      "endTime": 1712151647909,
+      "message": "",
+      "name": "C:\\Users\\HammerPanzer\\Documents\\Formation\\OpenClassroom\\P09\\Billed-app-FR-Back-main\\services\\jwt.test.js",
+      "startTime": 1712151647252,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Test the root path"],
+          "failureMessages": [],
+          "fullName": "Test the root path It should response the GET method",
+          "location": null,
+          "status": "passed",
+          "title": "It should response the GET method"
+        }
+      ],
+      "endTime": 1712151648671,
+      "message": "",
+      "name": "C:\\Users\\HammerPanzer\\Documents\\Formation\\OpenClassroom\\P09\\Billed-app-FR-Back-main\\tests\\app.test.js",
+      "startTime": 1712151647954,
+      "status": "passed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}
